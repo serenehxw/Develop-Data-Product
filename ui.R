@@ -25,11 +25,9 @@ shinyUI(pageWithSidebar(
     uiOutput('sample_means_mean_sd'),
     
     h4("Documentation"),
-    helpText("The app allows you to experiment with the one of the most important theorem of statistics."),
-    helpText("Play around with NUMBER OF SAMPLES and NUMBER OF BINS."),
-    helpText("You should notice, that no matter how crazy the random distribution is the distribution of its sample means approaches normal distribution."),
-    helpText("But it's no any normal distribution but one that has the same mean as our initial crazy ever changing random distribution."),
-    withMathJax(helpText("Additionally as proven by numbers above standard deviations are also showing incredibly nice relation."))
+    helpText("The app allows you to experiment with the one of the theorem of statistics."),
+    helpText("Experiment around with the Number of samples and the Number of bins."),
+    withMathJax(helpText("Hope this app helps."))
   ),
   
   # Show a plot of the generated distribution

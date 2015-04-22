@@ -35,7 +35,7 @@ shinyServer(function(input, output) {
     data <- data()
     randomDist <- data$dist
     
-    barplot(randomDist, main="Random Discrete Distribution (will change on each action and reload:-))")
+    barplot(randomDist, main="Random Discrete Distribution")
   })  
   
   output$population_mean <- renderUI({
